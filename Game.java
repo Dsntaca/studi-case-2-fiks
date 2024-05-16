@@ -41,10 +41,8 @@ public class Game {
         elf.useSkill(knight);
         elf.recoverMP(elf);
 
-        // Hero menggunakan Remedy untuk menghilangkan semua status dan Antidote untuk menghilangkan status Poison
+        // Hero menggunakan Remedy untuk menghilangkan semua status 
         System.out.println(knight.name + " menggunakan Remedy untuk menhilangkan semua status ");
         knight.useItem(new Remedy());
-        System.out.println(knight.name + " menggunakan Antidote untuk menghilangkan status Poison");
-        knight.useItem(new Antidote());
     }
 }
